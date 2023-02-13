@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "some_wei",
+						"type": "uint256"
+					}
+				],
+				"name": "convert_to_ether",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "some_wei",
+						"type": "uint256"
+					}
+				],
+				"name": "convert_to_gwei",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "some_wei",
+						"type": "uint256"
+					}
+				],
+				"name": "convert_to_wei",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "show_converted_ether",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "show_converted_gwei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "show_converted_wei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity_challenge2_wei_conversion.sol": "wei_conversion"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity_challenge2_wei_conversion.sol": {
+			"keccak256": "0x4e338bc5d3a5c7f213f25c43b215742c1d289ff79bae7018aac3ae851f51207a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://0b3c42e4f787bbc1c843dada6a811d2310bf30c9bc015a08218f907e3b6fc1c5",
+				"dweb:/ipfs/QmfVGDd8stX2vmjLC8qpCghn68siJEHTmcM1o2heCz5zrL"
+			]
+		}
+	},
+	"version": 1
+}
